@@ -16,7 +16,7 @@ html {
 header{
     width: 99vw;
     height: 100vh;
-    background-image: url(/img/waves.svg);
+    background-image: url(../img/waves.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #0c0c0c;
