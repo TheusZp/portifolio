@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+:root{
+    font-size: 62.5%;
+}
+header{
+    width: 99vw;
+    height: 100vh;
+    background-image: url(/img/waves.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0c0c0c;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+}
+header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6.4rem;
+    margin-top: 10rem;
+    
+
+}
+
+.top-bar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5.5rem 10rem;
+    background-color: #FBBB1D;
+    width: 100%;
+    height: auto;
+    
+}
+.logo{
+    width: 5rem;
+
+}
+.top-bar a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    color: #0c0c0c;
+    font-weight: 700;
+    
+    text-decoration: none;
+    margin: 0 1rem;
+
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8rem 0;
+    height: 100%;
+}
+main .avatar{
+    width: 39.4rem;
+    height: 39.4rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+main .avatar img{
+    width: 100%;
+    position: relative;
+    top: -15rem;
+    
+}
+main .bio{
+    width: 50rem;
+}
+main .bio h1{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: #0c0c0c;
+
+margin-bottom: 3rem;
+}
+
+main .bio p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #0c0c0c;  
+
+}
+main .bio p+p{
+    margin-top: 3rem;
+}
+/* SKILLS */
+.skills{
+    background-color: #0c0c0c;
+    height: 20rem;
+    padding: 3.2rem 8rem;  
+    
+}
+.skills h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #FBBB1D;
+
+    margin-bottom: 2rem;
+    
+
+}
+.mySkills{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.mySkills img{
+    width: 6rem;    
+
+}
+
+/* PROJECTS */
+
+.projects{
+    background-color: #FBBB1D;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #0c0c0c;
+
+    padding: 3.2rem 8rem; 
+    
+}
+
+.projects h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #0c0c0c;
+
+    margin-bottom: 4rem;
+}
+
+.myProjects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #FFF6DE;
+    
+    width: 32%;
+    padding: 1.6rem 1rem;
+}
+.card .img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 1px 2px 4px #0c0c0c5e;
+    margin-bottom: 1.5rem;
+}
+.card .img img{
+    width: 100%;  
+    height: auto;     
+}
+
+.card .content h2{
+    padding: 1.4rem 3.2rem;
+}
+
+.card .content p{
+    padding:0 3.2rem 2rem 3.2rem;
+}
+
+.card .footer{
+    padding:0 3.2rem;
+    
+    
+}
+
+.card .footer a{
+    display: flex;
+    align-items: center;
+    justify-content: right;  
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem; 
+    color: #0c0c0c;
+    text-decoration: none;
+
+
+}
+.card .footer img{
+    margin-left: 1vw;
+}
+
+.moreProjects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;      
+    
+    margin-top: 3.6rem;
+}
+
+.moreProjects button{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem; 
+    color: #0c0c0c; 
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    padding-top: 7.2rem;
+}
+footer .links{
+    margin-bottom: 2.5rem;
+    
+}
+
+footer .links a{
+    margin: 0 1.8rem;
+}
+footer .copy{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;     
+    color: #0c0c0c;
+}
