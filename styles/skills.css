@@ -1,0 +1,134 @@
+.skills{
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #0c0c0c;
+  
+    padding:8rem 8rem;  
+    
+}
+.skills h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #FBBB1D;
+
+    margin-bottom: 2rem;
+    
+
+}
+.mySkills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;       
+    gap: 2rem;
+    column-gap: 5rem;
+
+    margin: 5rem 0;
+}
+
+.skill h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+
+    padding-left: 1rem;
+    padding-bottom: .8rem;
+}
+/* ;;; */
+  
+/* Barras de skills */
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 25px;
+    width: 328px;
+}
+/* -------------------------------------------------------- */
+.progress-value.html{
+    animation: load-html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-html  {
+    0% { width: 0; }
+    100% { width: 50%; }
+}
+
+/* -------------------------------------------------------- */
+.progress-value.css{
+    animation: load-css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-css  {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+/* -------------------------------------------------------- */
+.progress-value.js{
+    animation: load-js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-js  {
+    0% { width: 0; }
+    100% { width: 30%; }
+}
+/* -------------------------------------------------------- */
+.progress-value.php{
+    animation: load-php 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-php  {
+    0% { width: 0; }
+    100% { width: 20%; }
+}
+/* -------------------------------------------------------- */
+.progress-value.mysql{
+    animation: load-mysql 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-mysql  {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+/* -------------------------------------------------------- */
+.progress-value.java{
+    animation: load-java 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #FBBB1D;
+    height: 17px;
+    width: 0;
+}
+  
+@keyframes load-java  {
+    0% { width: 0; }
+    100% { width: 15%; }
+}

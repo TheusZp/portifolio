@@ -1,0 +1,100 @@
+.projects{
+    background-color: #FBBB1D;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #0c0c0c;
+
+    padding: 8rem 8rem; 
+    
+}
+
+.projects h1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #0c0c0c;
+
+    margin-bottom: 4rem;
+}
+
+.myProjects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: #FFF6DE;
+    
+    width: 32%;
+    padding: 1.6rem 1rem;
+}
+.card .img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 1px 2px 4px #0c0c0c5e;
+    margin-bottom: 1.5rem;
+}
+.card .img img{
+    width: 100%;  
+    height: auto;     
+}
+
+.card .content h2{
+    padding: 1.4rem 3.2rem;
+}
+
+.card .content p{
+    padding:0 3.2rem 2rem 3.2rem;
+}
+
+.card .footer{
+    padding:0 3.2rem;
+    
+    
+}
+
+.card .footer a{
+    display: flex;
+    align-items: center;
+    justify-content: right;  
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem; 
+    color: #0c0c0c;
+    text-decoration: none;
+
+
+}
+.card .footer img{
+    margin-left: 1vw;
+}
+
+.moreProjects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;      
+    
+    margin-top: 3.6rem;
+}
+
+.moreProjects button{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem; 
+    color: #0c0c0c; 
+    background:none;
+    border: none;
+    cursor: pointer;
+}

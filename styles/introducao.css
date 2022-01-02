@@ -1,0 +1,49 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    padding: 8rem 0;
+    
+}
+main .avatar{
+    width: 39.4rem;
+    height: 39.4rem;
+    border-radius: 100%;
+    overflow: hidden;
+    justify-self: center;
+}
+main .avatar img{
+    width: 100%;
+    position: relative;
+    top: -15rem;
+    
+}
+main .bio{
+    width: 50rem;
+}
+main .bio h1{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+color: #0c0c0c;
+
+margin-bottom: 3rem;
+}
+
+main .bio p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;    
+    color: #0c0c0c;  
+
+}
+main .bio p+p{
+    margin-top: 3rem;
+}
